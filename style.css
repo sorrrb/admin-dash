@@ -25,6 +25,10 @@ li {
   list-style: none;
 }
 
+input:focus {
+  outline: 1px solid rgb(140, 200, 230);
+}
+
 /* ------------------------- */
 
 .container {
@@ -82,9 +86,134 @@ li {
 .header {
   box-shadow: 2px 4px 6px hsla(0, 0%, 0%, 0.15);
   grid-area: header;
+  padding: 0px 48px;
+  padding-bottom: 8px;
   position: relative;
   
   display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.search {
+  display: grid;
+  grid-template-columns: min-content auto;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.search img {
+  display: grid;
+}
+
+.search > input[type="search"] {
+  background-color: #e2e8f0;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 4px 8px
+}
+
+.account-info {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 2fr;
+}
+
+.alert-link {
+  justify-self: end;
+}
+
+.profile-link {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.profile-link > div.side-icon {
+  justify-self: center;
+}
+
+.username {
+  font-size: 1.3rem;
+  font-weight: 600;
+  justify-self: start;
+}
+
+.account-greeting {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.user-message {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.active-user {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.main-icon, .side-icon {
+  padding: 12px;
+}
+
+.main-icon > img, .side-icon > img {
+  height: 100%;
+  width: 100%;
+}
+
+.blue {
+  background-color: #e0f2fe;
+}
+
+.gold {
+  background-color: #facc15;
+}
+
+.gray {
+  background-color: #a3a3a3;
+}
+
+.pink {
+  background-color: #fda4af;
+}
+
+.main-icon {
+  display: grid;
+  border-radius: 50%;
+  max-height: 75px;
+  max-width: 75px;
+  place-items: center;
+}
+
+.side-icon {
+  display: grid;
+  border-radius: 50%;
+  max-height: 60px;
+  max-width: 60px;
+  place-items: center;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: min-content min-content min-content;
+  align-items: center;
+  justify-content: space-evenly
+}
+
+.buttons button {
+  background-color: #1992d4;
+  border: none;
+  border-radius: 64px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 12px 32px;
 }
 
 /* ------------------------- */
@@ -92,4 +221,5 @@ li {
 .main-content {
   background-color: #e2e8f0;
   grid-area: content;
+  padding: 36px 16px;
 }

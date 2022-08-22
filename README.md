@@ -1,6 +1,6 @@
 # js-admin-dash
 
-Crab icons created by Freepik - Flaticon
-Jail icons created by smalllikeart - Flaticon
-Food and restaurant icons created by smalllikeart - Flaticon
+Bubble-tea icons created by Freepik - Flaticon
+Ukulele icons created by Icongeek26 - Flaticon
+Cultures icons created by Eucalyp - Flaticon
 Chakras icons created by torskaya - Flaticon
