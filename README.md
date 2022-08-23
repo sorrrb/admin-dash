@@ -19,10 +19,10 @@ A webpage front-end implementation of an admin dashboard<br>
 - Dynamic Page Layout
 
 ## Attribution(s)
-Bubble-tea icons created by [Freepik](https://www.flaticon.com/authors/freepik) - Flaticon
-Ukulele icons created by [Icongeek26](https://www.flaticon.com/authors/Icongeek26) - Flaticon
-Cultures icons created by [Eucalyp](https://www.flaticon.com/authors/Eucalyp) - Flaticon
-Chakras icons created by [torskaya](https://www.flaticon.com/authors/torskaya) - Flaticon
+Bubble-tea icons created by [Freepik](https://www.flaticon.com/authors/freepik) - Flaticon<br>
+Ukulele icons created by [Icongeek26](https://www.flaticon.com/authors/Icongeek26) - Flaticon<br>
+Cultures icons created by [Eucalyp](https://www.flaticon.com/authors/Eucalyp) - Flaticon<br>
+Chakras icons created by [torskaya](https://www.flaticon.com/authors/torskaya) - Flaticon<br>
 
 #### To-Do
 - Icon hover states
