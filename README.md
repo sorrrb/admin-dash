@@ -1,4 +1,4 @@
-# js-admin-dash
+# admin-dash
 A webpage front-end implementation of an admin dashboard<br>
 
 [Live Demo](https://sorrrb.github.io/js-admin-dash/)
